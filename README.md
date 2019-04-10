@@ -12,13 +12,14 @@ environment:
 - LETSENCRYPT_HOST=yourdomain.com
 - LETSENCRYPT_EMAIL=your@mail.com
 ```
-gives you the current free rooms.
+
 
 ## Useage
 ```
 docker-compose up -d 
 ```
 
-## Based on:
-
+## Based on:d
+- [jwilder/nginx-proxy](https://github.com/jwilder/nginx-proxy) 
+- [jrcs/docker-letsencrypt-nginx-proxy-companion](https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion) 
 - [Nextclouds docker-compose](https://github.com/nextcloud/docker/tree/master/.examples)

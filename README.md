@@ -20,7 +20,7 @@ environment:
 docker-compose up -d 
 ```
 
-## Based on:d
+## Based on
 - [jwilder/nginx-proxy](https://github.com/jwilder/nginx-proxy) 
 - [jrcs/docker-letsencrypt-nginx-proxy-companion](https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion) 
 - [Nextclouds docker-compose](https://github.com/nextcloud/docker/tree/master/.examples)

@@ -8,9 +8,6 @@ WORKDIR /app
 RUN yarn install
 
 # Set environment variables
-ENV NODE_ENV production
-ENV NUXT_HOST 0.0.0.0
-ENV NUXT_PORT 3000
 
 RUN yarn build
 RUN yarn cache clean

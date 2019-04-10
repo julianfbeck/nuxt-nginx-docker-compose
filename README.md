@@ -3,6 +3,7 @@
 > Run a nuxt website with nginx and https
 
 This docker-compose [jwilder/nginx-proxy](https://github.com/jwilder/nginx-proxy) and [jrcs/docker-letsencrypt-nginx-proxy-companion](https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion) containers to host a nuxt website. 
+The Dockerfile to host the nuxt site is in the *app/* directory
 
 ## Setup
 Replace following fields with your domain and email.

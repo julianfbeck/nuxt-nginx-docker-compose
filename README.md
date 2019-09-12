@@ -15,7 +15,7 @@ environment:
 ```
 
 
-## Useage
+## Usage
 ```
 docker-compose up -d 
 ```
